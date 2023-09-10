@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="bg-primary-subtle">
+  <h1 class="m-2">Text Editor</h1>
+  <div class="m-3">
+    <h3>Input Text</h2>
+      <div class="form-floating">
+        <textarea class="form-control border  border-3 border-primary" id="input" placeholder="Leave a comment here" style="height: 150px"></textarea>
+        <label for="input">Enter Text</label>
+      </div>
+  </div>
+  <div class="m-3">
+    <h3>Output Text</h3>
+    <div class="form-floating">
+      <textarea class="form-control border  border-3 border-primary" id="output" placeholder="Leave a comment here" style="height: 150px"></textarea>
+      <label for="output">Your transformed text will be displayed here.</label>
+    </div>
+    
+  </div>
+    <div class="container">
+      <button type="submit" class="btn btn-primary" id="uc">To UpperCase</button>
+      <button type="submit" class="btn btn-primary" id="lc">To LowerCase</button>
+      <button type="submit" class="btn btn-primary" id="rs">Remove Spaces</button>
+      <button type="submit" class="btn btn-primary" id="rl">Remove Lines</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <p class="ch-count m-3"><span class="word-count">0</span> Words <span class="char-count">0</span> Characters</p>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

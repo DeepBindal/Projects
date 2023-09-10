@@ -1,0 +1,38 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    overflow: hidden;
+    color: rgb(188, 218, 249);
+    cursor: pointer;
+}
+.container{
+    padding-top: 40px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#news-card{
+    height: 450px;
+    overflow: hidden;
+}
+.card{
+    cursor: pointer;
+    box-shadow: 0 0 4px rgb(0, 119, 255);
+    transition: all 0.2s ease;
+}
+.card:hover{
+    background-color: rgb(235, 241, 245);
+    box-shadow: 1px 1px 8px rgb(0, 119, 255);
+    transform: translateY(-3px);
+}
+
+.active-btn{
+    color: rgb(69, 128, 237);
+}
+.nav-item:hover{
+    color: rgb(0, 119, 255);
+    font-weight: 500;
+}
